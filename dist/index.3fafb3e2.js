@@ -1064,7 +1064,7 @@ try {
           lineNumber: 9,
           columnNumber: 9
         }
-      }, "Hello from React!", /*#__PURE__*/_reactDefault.default.createElement("button", {
+      }, "Hello from Scott!", /*#__PURE__*/_reactDefault.default.createElement("button", {
         onClick: () => setCount(count + 1),
         __self: this,
         __source: {
