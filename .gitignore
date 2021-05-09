@@ -4,4 +4,3 @@ node_modules
 src
 .parcel-cache
 yarn.lock
-package.json
