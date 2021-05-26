@@ -1064,7 +1064,14 @@ try {
           lineNumber: 9,
           columnNumber: 9
         }
-      }, "Hello from Scott!", /*#__PURE__*/_reactDefault.default.createElement("button", {
+      }, "Vote for the worst", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 31
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("button", {
         onClick: () => setCount(count + 1),
         __self: this,
         __source: {
@@ -1072,7 +1079,7 @@ try {
           lineNumber: 11,
           columnNumber: 13
         }
-      }, "Click me ", count))
+      }, "Eww ", count))
     );
   }
   _s(App, "oDgYfYHkD9Wkv4hrAPCkI/ev3YU=");
