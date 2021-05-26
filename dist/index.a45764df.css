@@ -33,25 +33,6 @@ body {
   transform-origin: top left;
 }
 
-.stars-L {
-  background-image: url("stars-L.2e6a16e4.svg");
-  background-size: 890px;
-  height: 750px;
-  animation: panning-stars 200s linear infinite alternate;
-}
-
-.stars-M {
-  background-image: url("stars-M.1ee57b70.svg");
-  height: 530px;
-  animation: panning-stars 300s linear infinite alternate;
-}
-
-.stars-S {
-  background-image: url("stars-S.ab3847d8.svg");
-  height: 370px;
-  animation: panning-stars 400s linear infinite alternate;
-}
-
 @keyframes panning-stars {
   from {
     transform: translate(-20%, 0%);
@@ -61,12 +42,12 @@ body {
   }
 }
 
-.marvellous-container {
+.main-container {
   position: relative;
   z-index: 2;
   padding: 104px 0 24px 0;
   width: 95%;
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -97,16 +78,7 @@ a {
   text-decoration: underline;
 }
 
-.title-marvel {
-  font-weight: bolder;
-  color: #020103;
-  letter-spacing: -6.7px;
-  text-transform: uppercase;
-  padding: 0 16px;
-  background: #9b00f5;
-}
-
-.title-studios {
+.title-main {
   position: relative;
   display: inline-block;
   font-weight: bold;
@@ -149,6 +121,10 @@ code {
 .footer img {
   height: 104px;
   width: auto;
+}
+
+hr.new {
+  border-top: 1px solid grey;
 }
 
 /*# sourceMappingURL=index.a45764df.css.map */
